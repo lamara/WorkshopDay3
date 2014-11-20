@@ -70,8 +70,8 @@
     
     //Set the current song if it does not already exist
     if (self.currentSong == nil) {
-        //self.currentSong = selectedSong;
-        [self.currentSong.audioPlayer seekToTime:CMTimeMake(280, 1)];
+        self.currentSong = selectedSong;
+        //[self.currentSong.audioPlayer seekToTime:CMTimeMake(280, 1)];
         [self.currentSong.audioPlayer play];
         return;
     }
