@@ -13,22 +13,5 @@
 
 @interface AudioPlayerViewController : UIViewController
 
-@property ALXSong *currentSong;
-@property NSArray *playlist;
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-
-@property (weak, nonatomic) IBOutlet UILabel *artistLabel;
-
-@property (weak, nonatomic) IBOutlet UILabel *albumLabel;
-@property (weak, nonatomic) IBOutlet UIButton *playButton;
-
-@property (weak, nonatomic) IBOutlet UIButton *pauseButton;
-
--(void)play;
-
--(void)pause;
-
-- (void)transitionToTrack:(ALXSong*)track;
-
 
 @end

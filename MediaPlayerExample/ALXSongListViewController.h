@@ -13,12 +13,4 @@
 
 @interface ALXSongListViewController : UITableViewController
 
-@property NSMutableArray *songList;
-
-@property ALXSong *currentSong;
-
-@property AudioPlayerViewController *playerController;
-
--(void)resetCurrentTrack;
-
 @end
