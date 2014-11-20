@@ -10,11 +10,16 @@
 		58BEA9A01A0FEBA00056D490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEA99F1A0FEBA00056D490 /* main.m */; };
 		58BEA9A31A0FEBA00056D490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEA9A21A0FEBA00056D490 /* AppDelegate.m */; };
 		58BEA9A61A0FEBA00056D490 /* MediaPlayerExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58BEA9A41A0FEBA00056D490 /* MediaPlayerExample.xcdatamodeld */; };
-		58BEA9A91A0FEBA00056D490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEA9A81A0FEBA00056D490 /* ViewController.m */; };
 		58BEA9AC1A0FEBA00056D490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BEA9AA1A0FEBA00056D490 /* Main.storyboard */; };
 		58BEA9AE1A0FEBA00056D490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BEA9AD1A0FEBA00056D490 /* Images.xcassets */; };
 		58BEA9B11A0FEBA00056D490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58BEA9AF1A0FEBA00056D490 /* LaunchScreen.xib */; };
 		58BEA9BD1A0FEBA00056D490 /* MediaPlayerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEA9BC1A0FEBA00056D490 /* MediaPlayerExampleTests.m */; };
+		58D349C01A0FF11900E287C9 /* ALXSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D349BF1A0FF11900E287C9 /* ALXSong.m */; };
+		58D349C31A10007C00E287C9 /* AudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D349C21A10007C00E287C9 /* AudioPlayerViewController.m */; };
+		58D349C51A10053D00E287C9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D349C41A10053D00E287C9 /* AVKit.framework */; };
+		58D349C81A10089300E287C9 /* ALXSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D349C71A10089300E287C9 /* ALXSongListViewController.m */; };
+		58D9DA231A1EA00A0031E94A /* Hugo Kant - Hittin' The Bottle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58D9DA221A1EA00A0031E94A /* Hugo Kant - Hittin' The Bottle.mp3 */; };
+		58D9DA251A1EA1350031E94A /* Kamei - Falling in Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58D9DA241A1EA1350031E94A /* Kamei - Falling in Love.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,21 @@
 		58BEA9A11A0FEBA00056D490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58BEA9A21A0FEBA00056D490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58BEA9A51A0FEBA00056D490 /* MediaPlayerExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaPlayerExample.xcdatamodel; sourceTree = "<group>"; };
-		58BEA9A71A0FEBA00056D490 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58BEA9A81A0FEBA00056D490 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58BEA9AB1A0FEBA00056D490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58BEA9AD1A0FEBA00056D490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58BEA9B01A0FEBA00056D490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58BEA9B61A0FEBA00056D490 /* MediaPlayerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BEA9BB1A0FEBA00056D490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58BEA9BC1A0FEBA00056D490 /* MediaPlayerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerExampleTests.m; sourceTree = "<group>"; };
+		58D349BE1A0FF11900E287C9 /* ALXSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALXSong.h; sourceTree = "<group>"; };
+		58D349BF1A0FF11900E287C9 /* ALXSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALXSong.m; sourceTree = "<group>"; };
+		58D349C11A10007C00E287C9 /* AudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerViewController.h; sourceTree = "<group>"; };
+		58D349C21A10007C00E287C9 /* AudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerViewController.m; sourceTree = "<group>"; };
+		58D349C41A10053D00E287C9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		58D349C61A10089300E287C9 /* ALXSongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALXSongListViewController.h; sourceTree = "<group>"; };
+		58D349C71A10089300E287C9 /* ALXSongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALXSongListViewController.m; sourceTree = "<group>"; };
+		58D9DA221A1EA00A0031E94A /* Hugo Kant - Hittin' The Bottle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hugo Kant - Hittin' The Bottle.mp3"; sourceTree = "<group>"; };
+		58D9DA241A1EA1350031E94A /* Kamei - Falling in Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kamei - Falling in Love.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D349C51A10053D00E287C9 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 		58BEA9911A0FEBA00056D490 = {
 			isa = PBXGroup;
 			children = (
+				58D349C41A10053D00E287C9 /* AVKit.framework */,
 				58BEA99C1A0FEBA00056D490 /* MediaPlayerExample */,
 				58BEA9B91A0FEBA00056D490 /* MediaPlayerExampleTests */,
 				58BEA99B1A0FEBA00056D490 /* Products */,
@@ -85,13 +99,19 @@
 			children = (
 				58BEA9A11A0FEBA00056D490 /* AppDelegate.h */,
 				58BEA9A21A0FEBA00056D490 /* AppDelegate.m */,
-				58BEA9A71A0FEBA00056D490 /* ViewController.h */,
-				58BEA9A81A0FEBA00056D490 /* ViewController.m */,
 				58BEA9AA1A0FEBA00056D490 /* Main.storyboard */,
 				58BEA9AD1A0FEBA00056D490 /* Images.xcassets */,
 				58BEA9AF1A0FEBA00056D490 /* LaunchScreen.xib */,
 				58BEA9A41A0FEBA00056D490 /* MediaPlayerExample.xcdatamodeld */,
 				58BEA99D1A0FEBA00056D490 /* Supporting Files */,
+				58D349BE1A0FF11900E287C9 /* ALXSong.h */,
+				58D349BF1A0FF11900E287C9 /* ALXSong.m */,
+				58D349C11A10007C00E287C9 /* AudioPlayerViewController.h */,
+				58D349C21A10007C00E287C9 /* AudioPlayerViewController.m */,
+				58D349C61A10089300E287C9 /* ALXSongListViewController.h */,
+				58D349C71A10089300E287C9 /* ALXSongListViewController.m */,
+				58D9DA221A1EA00A0031E94A /* Hugo Kant - Hittin' The Bottle.mp3 */,
+				58D9DA241A1EA1350031E94A /* Kamei - Falling in Love.mp3 */,
 			);
 			path = MediaPlayerExample;
 			sourceTree = "<group>";
@@ -203,8 +223,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58BEA9AC1A0FEBA00056D490 /* Main.storyboard in Resources */,
+				58D9DA231A1EA00A0031E94A /* Hugo Kant - Hittin' The Bottle.mp3 in Resources */,
 				58BEA9B11A0FEBA00056D490 /* LaunchScreen.xib in Resources */,
 				58BEA9AE1A0FEBA00056D490 /* Images.xcassets in Resources */,
+				58D9DA251A1EA1350031E94A /* Kamei - Falling in Love.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D349C31A10007C00E287C9 /* AudioPlayerViewController.m in Sources */,
 				58BEA9A31A0FEBA00056D490 /* AppDelegate.m in Sources */,
 				58BEA9A61A0FEBA00056D490 /* MediaPlayerExample.xcdatamodeld in Sources */,
-				58BEA9A91A0FEBA00056D490 /* ViewController.m in Sources */,
+				58D349C81A10089300E287C9 /* ALXSongListViewController.m in Sources */,
+				58D349C01A0FF11900E287C9 /* ALXSong.m in Sources */,
 				58BEA9A01A0FEBA00056D490 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +440,7 @@
 				58BEA9C21A0FEBA00056D490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58BEA9C31A0FEBA00056D490 /* Build configuration list for PBXNativeTarget "MediaPlayerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				58BEA9C51A0FEBA00056D490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
